@@ -5,7 +5,6 @@ hp1 = 100
 hp2 = 100
 J1 = input("P1 name: ")
 J2 = input("P2 name: ")
-
 while dead == 0:
     turn = randint(1, 2)
     input("Press enter to continue")
@@ -20,7 +19,6 @@ while dead == 0:
        print(J1, "is dead")
        print(J2, "won")
        break
-
     if turn == 2:
             print(J2,"turn")
             att2 = randint(1, 15)
