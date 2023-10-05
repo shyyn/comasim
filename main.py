@@ -8,7 +8,7 @@ while dead == 0:
     turn = randint(1, 2)
     input("Press enter to continue")
     if turn == 1:
-        print("P1 starts")
+        print("P1 turn")
         att1 = randint(1, 15)
         print("DMG: ", att1)
         hp2 = hp2 - att1
@@ -16,8 +16,8 @@ while dead == 0:
         if hp2 <= 0:
             dead = 2
             print("P2 is dead")
-        else:
-            print("P2 starts")
+    if turn == 2:
+            print("P2 turn")
             att2 = randint(1, 15)
             print("DMG: ", att2)
             hp1 = hp1 - att2
