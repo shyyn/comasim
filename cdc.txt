@@ -1,0 +1,31 @@
+- Interface graphique en C++ (Basile)
+- Systeme coup critique 
+- Systeme d'item
+    * Armures
+    * Armes
+    * Sort consomable
+    * Anneaux etc
+
+- Systeme sacrifice
+    * Item conso
+    * Item perma
+    * Cout en PV
+
+-
+
+
+Facutlatif :
+- Mode solo
+    * Donjon style roguelike
+
+- Mode online
+
+
+
+
+(- Concurrencer Valve
+- Concurencer Ubisoft
+- Devenir la plus grosse entreprise au monde
+- Racheter la planete entiere
+- Diriger le monde
+- Mettre Frau Picchioli CEO et mourir)
