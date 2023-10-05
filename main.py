@@ -26,7 +26,7 @@ while dead == 0:
                 dead = 1
                 print("P1 is dead")
                 
-if mort == 1:
+if dead == 1:
     print("P2 Won")
-elif mort == 2:
+elif dead == 2:
     print("P1 Won")
