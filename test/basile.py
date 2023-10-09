@@ -1,11 +1,11 @@
 from random import *
 
 def crit1(x):
-    y = att1 * 2 + 10
+    y = att1 * 2 + 5
     return()
 
 def crit2(x):
-    w = att2 * 2 + 10
+    w = att2 * 2 + 15
     return(w)
 
 dead = 0
@@ -22,7 +22,9 @@ while dead == 0:
         critical_dmg1 = crit1(att1)
         p_crit = randint(1, 45)
         if p_crit == 14:
-             print(critical_dmg2, "coup critique dans ta mère")
+             hp2 = hp2 - crit1
+             print("Critical hit! ", critical_dmg1)
+             print("HP", J2, ":", hp2)
         else:
             print("DMG: ", att1)
             hp2 = hp2 - att1
@@ -43,7 +45,8 @@ while dead == 0:
         critical_dmg2 = crit2(att2)
         p_crit = randint(1, 45)
         if p_crit == 14:
-             print(critical_dmg2, "coup critique dans ta mère")
+            print("Critical hit! ", critical_dmg1)
+            print("HP", J1, ":", hp1)
         else:
             print("DMG: ", att2)
             hp1 = hp1 - att2
