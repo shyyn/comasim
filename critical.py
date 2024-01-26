@@ -1,5 +1,5 @@
 from random import *
-from basile import att1, att2
+basile 
 def crit1(x):
     y = att1 * 2
     return()
