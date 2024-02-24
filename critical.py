@@ -1,22 +1,8 @@
 from random import *
-basile 
-def crit1(x):
-    y = att1 * 2
-    return()
 
-def crit2(x):
-    w = att2 * 2
-    return()
-
-#att = 5
-#deg = att
-#crit = randint(1,20)
-#if crit == 14:
- #   deg = att * 2
-   # print(deg, "Coup critique dans ta mere")
-#else:
- #   print(att)
-
-
-
+def crit(x):
+    if randint(1, 10) == 1:
+        print("Critical Hit! Double Damage!")
+        return x * 2
+    return x
     
